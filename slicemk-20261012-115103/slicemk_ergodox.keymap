@@ -1,0 +1,55 @@
+#define LAYER_BASE 0
+#define LAYER_KEYPAD 1
+#define LAYER_SUPER 2
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/rgb.h>
+
+/ {
+	keymap {
+		compatible = "zmk,keymap";
+		layer_0 {
+			bindings = <
+				&bootloader
+				&kp GRAVE       &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5     &none        &kp C_MUTE        &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0  &kp BACKSPACE
+				&kp TAB         &kp Q        &kp W        &kp F        &kp P        &kp G            &none        &kp C_VOLUME_UP   &kp J         &kp L           &kp U        &kp Y        &kp SEMICOLON &kp BACKSLASH
+				&kp ESCAPE      &kp A        &kp R        &kp S        &kp T        &kp D                                           &kp H         &kp N           &kp E        &kp I        &kp O         &kp RETURN
+				&kp LEFT_SHIFT  &kp Z        &kp X        &kp C        &kp V        &kp B            &none        &kp C_VOLUME_DOWN &kp K         &kp M           &kp COMMA    &kp PERIOD   &kp SLASH     &kp RIGHT_SHIFT
+				&kp PRINTSCREEN &kp F11      &kp F12      &none        &kp LEFT_ALT                                                               &kp RIGHT_ALT   &none        &none        &none         &tog LAYER_KEYPAD
+				                                                                    &kp INSERT       &kp DELETE   &kp HOME          &kp END
+				                                                       &kp SPACE    &kp LEFT_CONTROL &kp PAGE_UP  &kp PAGE_DOWN     &kp BACKSPACE &mo LAYER_SUPER
+				                                                                                     &kp LEFT_GUI &none
+			>;
+		};
+		layer_1 {
+			bindings = <
+				&bootloader
+				&none          &none     &none        &none     &none      &none &none &none &none &none           &none        &none        &none        &none
+				&none          &none     &none        &none     &none      &none &none &none &none &kp NUMBER_7    &kp NUMBER_8 &kp NUMBER_9 &none        &none
+				&none          &kp SLASH &kp ASTERISK &kp MINUS &kp PLUS   &none             &none &kp NUMBER_4    &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_0 &kp RETURN
+				&kp LEFT_SHIFT &none     &none        &none     &kp PERIOD &none &none &none &none &kp NUMBER_1    &kp NUMBER_2 &kp NUMBER_3 &none        &kp RIGHT_SHIFT
+				&none          &none     &none        &none     &none                              &none           &none        &none        &none        &none
+				                                                           &none &none &none &none
+				                                                &none      &none &none &none &none &mo LAYER_SUPER
+				                                                                 &none &none
+			>;
+		};
+		layer_2 {
+			bindings = <
+				&bootloader
+				&none          &kp F1 &kp F2 &kp F3           &kp F4            &kp F5 &none &none &kp F6 &kp F          &kp F8       &kp F9         &kp F10         &none
+				&none          &none  &none  &none            &none             &none  &none &none &none  &none          &none        &none          &none           &none
+				&none          &none  &none  &kp MINUS        &kp EQUAL         &none              &none  &kp DOWN_ARROW &kp UP_ARROW &kp LEFT_ARROW &kp RIGHT_ARROW &none
+				&kp LEFT_SHIFT &none  &none  &kp LEFT_BRACKET &kp RIGHT_BRACKET &none  &none &none &none  &none          &none        &none          &none           &kp RIGHT_SHIFT
+				&none          &none  &none  &none            &none                                       &none          &none        &none          &none           &none
+				                                                                &none  &none &none &none
+				                                              &kp SINGLE_QUOTE  &none  &none &none &none  &none
+				                                                                       &none &none
+			>;
+		};
+	};
+};
