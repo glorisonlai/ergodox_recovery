@@ -1,0 +1,957 @@
+{
+  "schema_version": 1,
+  "session_id": "3978daff-7440-4665-bd9d-fad9376b8ffa",
+  "name": "ErgoDox recovery",
+  "created_at": "2026-10-12T14:17:44Z",
+  "updated_at": "2026-10-12T15:36:01Z",
+  "keyboard": "slicemk_ergodox",
+  "target": {
+    "board": "raytac_mdbt50q_rx",
+    "shield": "slicemk_ergodox_dongle"
+  },
+  "device": {
+    "mount_path": "/run/media/glo/MDBT50QBOOT",
+    "model": "Raytac MDBT50Q-RX",
+    "board_id": "nRF52840-MDBT50Q_RX-verD",
+    "bootloader": "UF2 Bootloader 0.5.0 lib/nrfx (v2.0.0) lib/tinyusb (0.9.0-22-g7cdeed54) lib/uf2 (remotes/origin/configupdate-9-gadbb8c7)",
+    "date": "May 18 2021",
+    "current_uf2": "/run/media/glo/MDBT50QBOOT/CURRENT.UF2",
+    "target_board": "raytac_mdbt50q_rx",
+    "target_shield": "slicemk_ergodox_dongle"
+  },
+  "layers": [
+    {
+      "id": "base",
+      "name": "base",
+      "notes": "",
+      "bindings": {
+        "L0_0": {
+          "kind": "key_press",
+          "value": "GRAVE",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L0_1": {
+          "kind": "key_press",
+          "value": "NUMBER_1",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L0_2": {
+          "kind": "key_press",
+          "value": "NUMBER_2",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L0_3": {
+          "kind": "key_press",
+          "value": "NUMBER_3",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L0_4": {
+          "kind": "key_press",
+          "value": "NUMBER_4",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L0_5": {
+          "kind": "key_press",
+          "value": "NUMBER_5",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L0_6": {
+          "kind": "unknown",
+          "value": "",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "L1_0": {
+          "kind": "key_press",
+          "value": "TAB",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L1_1": {
+          "kind": "key_press",
+          "value": "Q",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L1_2": {
+          "kind": "key_press",
+          "value": "W",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L1_3": {
+          "kind": "key_press",
+          "value": "F",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L1_4": {
+          "kind": "key_press",
+          "value": "P",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L1_5": {
+          "kind": "key_press",
+          "value": "G",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L1_6": {
+          "kind": "unknown",
+          "value": "",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "L2_0": {
+          "kind": "key_press",
+          "value": "ESCAPE",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L2_1": {
+          "kind": "key_press",
+          "value": "A",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L2_2": {
+          "kind": "key_press",
+          "value": "R",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L2_3": {
+          "kind": "key_press",
+          "value": "S",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L2_4": {
+          "kind": "key_press",
+          "value": "T",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L2_5": {
+          "kind": "key_press",
+          "value": "D",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_0": {
+          "kind": "key_press",
+          "value": "LEFT_SHIFT",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_1": {
+          "kind": "key_press",
+          "value": "Z",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_2": {
+          "kind": "key_press",
+          "value": "X",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_3": {
+          "kind": "key_press",
+          "value": "C",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_4": {
+          "kind": "key_press",
+          "value": "V",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_5": {
+          "kind": "key_press",
+          "value": "B",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_6": {
+          "kind": "unknown",
+          "value": "",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "L4_0": {
+          "kind": "key_press",
+          "value": "PRINTSCREEN",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "confirmed",
+          "notes": ""
+        },
+        "L4_1": {
+          "kind": "key_press",
+          "value": "F11",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "L4_2": {
+          "kind": "key_press",
+          "value": "F12",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "L4_4": {
+          "kind": "key_press",
+          "value": "LEFT_ALT",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L5_0": {
+          "kind": "key_press",
+          "value": "INSERT",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L5_1": {
+          "kind": "key_press",
+          "value": "DELETE",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L6_0": {
+          "kind": "key_press",
+          "value": "SPACE",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L6_1": {
+          "kind": "key_press",
+          "value": "LEFT_CONTROL",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L6_2": {
+          "kind": "key_press",
+          "value": "PAGE_UP",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L7_0": {
+          "kind": "key_press",
+          "value": "LEFT_GUI",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R0_0": {
+          "kind": "key_press",
+          "value": "C_MUTE",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "R0_1": {
+          "kind": "key_press",
+          "value": "NUMBER_6",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R0_2": {
+          "kind": "key_press",
+          "value": "NUMBER_7",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R0_3": {
+          "kind": "key_press",
+          "value": "NUMBER_8",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R0_4": {
+          "kind": "key_press",
+          "value": "NUMBER_9",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R0_5": {
+          "kind": "key_press",
+          "value": "NUMBER_6",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R0_6": {
+          "kind": "key_press",
+          "value": "BACKSPACE",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R1_0": {
+          "kind": "key_press",
+          "value": "C_VOLUME_UP",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "R1_1": {
+          "kind": "key_press",
+          "value": "J",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R1_2": {
+          "kind": "key_press",
+          "value": "J",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R1_3": {
+          "kind": "key_press",
+          "value": "U",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R1_4": {
+          "kind": "key_press",
+          "value": "Y",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R1_5": {
+          "kind": "key_press",
+          "value": "SEMICOLON",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R1_6": {
+          "kind": "key_press",
+          "value": "BACKSLASH",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_1": {
+          "kind": "key_press",
+          "value": "N",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_2": {
+          "kind": "key_press",
+          "value": "E",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_3": {
+          "kind": "key_press",
+          "value": "I",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_4": {
+          "kind": "key_press",
+          "value": "O",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_5": {
+          "kind": "key_press",
+          "value": "RETURN",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R3_0": {
+          "kind": "key_press",
+          "value": "C_VOLUME_DOWN",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "R3_1": {
+          "kind": "key_press",
+          "value": "K",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R3_2": {
+          "kind": "key_press",
+          "value": "M",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R3_3": {
+          "kind": "key_press",
+          "value": "COMMA",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R3_4": {
+          "kind": "key_press",
+          "value": "PERIOD",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R3_5": {
+          "kind": "key_press",
+          "value": "SLASH",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R3_6": {
+          "kind": "key_press",
+          "value": "RIGHT_SHIFT",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R4_4": {
+          "kind": "toggle_layer",
+          "value": "",
+          "hold_value": "",
+          "target_layer": "keypad",
+          "confidence": "confirmed",
+          "notes": ""
+        },
+        "R5_0": {
+          "kind": "key_press",
+          "value": "HOME",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R5_1": {
+          "kind": "key_press",
+          "value": "END",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R6_0": {
+          "kind": "key_press",
+          "value": "PAGE_DOWN",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R6_1": {
+          "kind": "key_press",
+          "value": "BACKSPACE",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R6_2": {
+          "kind": "momentary_layer",
+          "value": "",
+          "hold_value": "",
+          "target_layer": "super",
+          "confidence": "confirmed",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "keypad",
+      "name": "keypad",
+      "notes": "",
+      "bindings": {
+        "L2_1": {
+          "kind": "key_press",
+          "value": "SLASH",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L2_2": {
+          "kind": "key_press",
+          "value": "ASTERISK",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L2_3": {
+          "kind": "key_press",
+          "value": "MINUS",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L2_4": {
+          "kind": "key_press",
+          "value": "PLUS",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_0": {
+          "kind": "key_press",
+          "value": "LEFT_SHIFT",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_4": {
+          "kind": "key_press",
+          "value": "PERIOD",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_5": {
+          "kind": "unknown",
+          "value": "",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "unknown",
+          "notes": ""
+        },
+        "R1_1": {
+          "kind": "unknown",
+          "value": "NUMBER_7",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "unknown",
+          "notes": ""
+        },
+        "R1_2": {
+          "kind": "key_press",
+          "value": "NUMBER_7",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R1_3": {
+          "kind": "key_press",
+          "value": "NUMBER_8",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R1_4": {
+          "kind": "key_press",
+          "value": "NUMBER_9",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_1": {
+          "kind": "key_press",
+          "value": "NUMBER_4",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_2": {
+          "kind": "key_press",
+          "value": "NUMBER_5",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_3": {
+          "kind": "key_press",
+          "value": "NUMBER_6",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_4": {
+          "kind": "key_press",
+          "value": "NUMBER_0",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_5": {
+          "kind": "key_press",
+          "value": "RETURN",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R3_1": {
+          "kind": "unknown",
+          "value": "",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "unknown",
+          "notes": ""
+        },
+        "R3_2": {
+          "kind": "key_press",
+          "value": "NUMBER_1",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R3_3": {
+          "kind": "key_press",
+          "value": "NUMBER_2",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R3_4": {
+          "kind": "key_press",
+          "value": "NUMBER_3",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R3_6": {
+          "kind": "key_press",
+          "value": "RIGHT_SHIFT",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R4_4": {
+          "kind": "unknown",
+          "value": "",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "unknown",
+          "notes": ""
+        },
+        "R6_2": {
+          "kind": "momentary_layer",
+          "value": "",
+          "hold_value": "",
+          "target_layer": "super",
+          "confidence": "inferred",
+          "notes": ""
+        }
+      }
+    },
+    {
+      "id": "super",
+      "name": "super",
+      "notes": "",
+      "bindings": {
+        "L0_1": {
+          "kind": "key_press",
+          "value": "F1",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "L0_2": {
+          "kind": "key_press",
+          "value": "F2",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "unknown",
+          "notes": ""
+        },
+        "L0_3": {
+          "kind": "key_press",
+          "value": "F3",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "L0_4": {
+          "kind": "key_press",
+          "value": "F4",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "L0_5": {
+          "kind": "key_press",
+          "value": "F5",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "L2_3": {
+          "kind": "key_press",
+          "value": "MINUS",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L2_4": {
+          "kind": "key_press",
+          "value": "EQUAL",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_0": {
+          "kind": "key_press",
+          "value": "LEFT_SHIFT",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_3": {
+          "kind": "key_press",
+          "value": "LEFT_BRACKET",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_4": {
+          "kind": "key_press",
+          "value": "RIGHT_BRACKET",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "L3_5": {
+          "kind": "unknown",
+          "value": "",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "unknown",
+          "notes": ""
+        },
+        "R0_1": {
+          "kind": "key_press",
+          "value": "F6",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "R0_2": {
+          "kind": "key_press",
+          "value": "F",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "R0_3": {
+          "kind": "key_press",
+          "value": "F8",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "R0_4": {
+          "kind": "key_press",
+          "value": "F9",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "R0_5": {
+          "kind": "key_press",
+          "value": "F10",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "inferred",
+          "notes": ""
+        },
+        "R2_1": {
+          "kind": "key_press",
+          "value": "DOWN_ARROW",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_2": {
+          "kind": "key_press",
+          "value": "UP_ARROW",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_3": {
+          "kind": "key_press",
+          "value": "LEFT_ARROW",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R2_4": {
+          "kind": "key_press",
+          "value": "RIGHT_ARROW",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R3_6": {
+          "kind": "key_press",
+          "value": "RIGHT_SHIFT",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "observed",
+          "notes": ""
+        },
+        "R6_2": {
+          "kind": "unknown",
+          "value": "",
+          "hold_value": "",
+          "target_layer": "",
+          "confidence": "unknown",
+          "notes": ""
+        }
+      }
+    }
+  ]
+}

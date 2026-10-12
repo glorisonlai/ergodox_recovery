@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ergodox-recovery"
+version = "0.1.0"
+description = "Local, guided SliceMK ErgoDox keymap recovery"
+readme = "README.md"
+requires-python = ">=3.14"
+license = "MIT"
+authors = [{ name = "ErgoDox Recovery contributors" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3", "ruff>=0.11"]
+
+[project.scripts]
+ergodox-recovery = "ergodox_recovery.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ergodox_recovery"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]

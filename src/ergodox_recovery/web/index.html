@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="recovery-token" content="__RECOVERY_TOKEN__">
+  <title>ErgoDox Recovery</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">LOCAL RECOVERY SESSION</p>
+      <h1>ErgoDox Recovery</h1>
+      <p id="session-name">Loading session…</p>
+    </div>
+    <div class="status" id="save-status">Connecting…</div>
+  </header>
+
+  <main>
+    <aside>
+      <section class="card warning">
+        <h2>Focused capture only</h2>
+        <p>This page listens only while it is focused and you explicitly arm one key. Double-click a key to arm it. Do not type passwords or sensitive text while capture is armed.</p>
+      </section>
+
+      <section class="card">
+        <label for="layer">Layer</label>
+        <div class="inline">
+          <select id="layer"></select>
+          <button id="add-layer" type="button" class="secondary">Add</button>
+        </div>
+        <p class="muted">Activate the chosen layer on the keyboard before testing its keys.</p>
+      </section>
+
+      <section class="card editor">
+        <h2 id="selected-title">Select a key</h2>
+        <label for="kind">Behavior</label>
+        <select id="kind">
+          <option value="key_press">Key press</option>
+          <option value="none">None</option>
+          <option value="transparent">Transparent</option>
+          <option value="momentary_layer">Momentary layer</option>
+          <option value="to_layer">Switch to layer</option>
+          <option value="toggle_layer">Toggle layer</option>
+          <option value="mod_tap">Mod-tap</option>
+          <option value="raw">Advanced ZMK binding</option>
+          <option value="unknown">Unknown / unresolved</option>
+        </select>
+
+        <label for="value">Keycode or raw binding</label>
+        <input id="value" autocomplete="off" spellcheck="false" placeholder="A or &bt BT_SEL 0">
+        <label for="hold-value">Hold keycode (mod-tap)</label>
+        <input id="hold-value" autocomplete="off" spellcheck="false" placeholder="LEFT_SHIFT">
+        <label for="target-layer">Target layer</label>
+        <select id="target-layer"></select>
+        <label for="confidence">Confidence</label>
+        <select id="confidence">
+          <option value="observed">Observed</option>
+          <option value="confirmed">Confirmed</option>
+          <option value="inferred">Inferred</option>
+          <option value="unknown">Unknown</option>
+        </select>
+        <label for="notes">Notes</label>
+        <textarea id="notes" rows="3" placeholder="Tap/hold behavior, macro intent, or uncertainty"></textarea>
+
+        <button id="save" type="button" disabled>Save manual edit</button>
+        <p class="muted" id="capture-help">Choose a physical key in the diagram first.</p>
+      </section>
+    </aside>
+
+    <section class="workspace">
+      <div class="progress-line">
+        <span id="progress">0 / 76 mapped</span>
+        <span>Click a physical position to select it; double-click it to arm capture.</span>
+      </div>
+      <div id="armed-banner" class="armed-banner" hidden>CAPTURE ARMED — press only the selected ErgoDox key</div>
+      <div class="keyboard" id="keyboard" aria-label="ErgoDox physical layout"></div>
+      <div class="legend">
+        <span><i class="dot mapped"></i> mapped</span>
+        <span><i class="dot uncertain"></i> uncertain</span>
+        <span><i class="dot blank"></i> unresolved</span>
+      </div>
+    </section>
+  </main>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>
